@@ -1,9 +1,7 @@
 import sys
 sys.dont_write_bytecode = True
 import streamlit as st
-from menu.dashboard import dashboard
-from menu.barchart import barchart
-from menu.gis_polygon import gis_polygon
+from menu import dashboard,barchart,gis_polygon
 
 
 
